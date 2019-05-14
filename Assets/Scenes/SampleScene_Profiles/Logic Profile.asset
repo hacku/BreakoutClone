@@ -1374,11 +1374,11 @@ MonoBehaviour:
     value: {fileID: 0}
     defaultState: 1
   intensity:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 0.184
   fastMode:
     overrideState: 0
-    value: 0
+    value: 1
 --- !u!114 &2161398473868596541
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1424,14 +1424,14 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   colored:
-    overrideState: 0
+    overrideState: 1
     value: 1
   intensity:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 0.416
   size:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 1.81
   lumContrib:
     overrideState: 0
     value: 0.8
@@ -1512,7 +1512,7 @@ MonoBehaviour:
     value: 0.455
   smoothness:
     overrideState: 1
-    value: 0.408
+    value: 0.679
   roundness:
     overrideState: 0
     value: 1

@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class Paddle : MonoBehaviour
 {
-    public float speed = 0.8f;
-
     // Update is called once per frame
     void Update()
     {
-        float newX = transform.position.x + Input.GetAxis("Horizontal") * speed;
-        Vector3 newPos = new Vector3(Mathf.Clamp(newX,-10f,10f),0f,0f);
+        //Spielereingabe abfragen
+        float inputX = Input.GetAxis("Horizontal");
+
+        //Aktuelle Position von Paddle holen
+        Vector3 newPos = transform.position;
+
+        //Spielereingabe verarbeiten
+        newPos.x += inputX;
+
+        //Paddle darf nicht über das Spielfeld hinaus, Clamp() beschneidet den Wert
+        newPos.x = Mathf.Clamp(newPos.x,-10f,10f);
+
+        //Paddle-Position aktualisieren
         transform.position = newPos;        
     }
 }
