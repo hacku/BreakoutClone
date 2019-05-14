@@ -1,6 +1,6 @@
 # BreakoutClone
 
-![breakout](https://www.dropbox.com/s/7aaaapdi3brcu3i/Breakout.png?dl=0)
+![breakout](https://www.dropbox.com/s/7aaaapdi3brcu3i/Breakout.png?raw=1)
 
 This is a sample project used in my talk at [Java User Group Saxony in May 2019](https://jugsaxony.org/veranstaltungen/114/explore_3d!_echtzeitgrafikprogrammierung_mit_unity/). It is basically a clone of the classic game Breakout to showcase on how the get a game prototype done with Unity in a very short time. The project was created with Unity 2019.1.1f1 Personal on Mac.
 
