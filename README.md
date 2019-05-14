@@ -12,7 +12,7 @@ In the talk I gave an overview about the basic principles of Unity. This game co
 - A very basic UI
 - PostProcessing
 
-Since the creation of the game was done in a live session, this sample code contains some more comments but is fairly near to the code created in the session.
+The creation of the game was done in a live session, this sample code contains some more comments but is fairly near to the code created in the session.
 
 ## What this project does not cover
 The steps on how to create the final game aren‘t covered but due to it‘s simplicity should be easy to figure out. If you need some help feel free to contact me!
