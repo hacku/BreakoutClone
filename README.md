@@ -18,3 +18,12 @@ The creation of the game was done in a live session, this sample code contains s
 
 ## What this project does not cover
 The steps on how to create the final game aren‘t covered but due to it‘s simplicity should be easy to figure out. If you need some help feel free to contact me!
+
+## Possible additions
+
+- Spawn all blocks with the GameLogic
+- Show a text when the user has won the game
+- Tweak the acceleration of the user input
+- Add different dynamics to the blocks (think of physics materials and scripting)
+- Change the material of the border elements
+- Try some different post processing styles
